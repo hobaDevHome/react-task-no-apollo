@@ -1,0 +1,115 @@
+.cart-container {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.cart-title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
+.divdier {
+  width: 100%;
+  height: 2px;
+  background-color: #e5e5e5;
+  margin-top: 15px;
+}
+
+.main-cart-item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.overlay-cart-item {
+  margin-top: 0px;
+}
+.details-pic-div {
+  margin-right: 40px;
+}
+
+.cart-item-title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 27px;
+  margin-bottom: 16px;
+}
+
+.cart-item-shore-desc {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 27px;
+  margin-bottom: 40px;
+}
+.cart-item-images-quantity {
+  display: flex;
+}
+
+.sizes-buttons {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  justify-content: flex-start;
+}
+.price-amount {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 18px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.cart-item-pic-div {
+  height: 185px;
+  width: 250px;
+}
+.cart-item-pic-div img {
+  height: 185px;
+  object-fit: contain;
+  margin-left: 15px;
+}
+.quantity-div {
+  height: 185px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.quantity {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 160%;
+}
+
+.cart-total {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.no-items {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 27px;
+  margin-bottom: 16px;
+  text-align: center;
+}
