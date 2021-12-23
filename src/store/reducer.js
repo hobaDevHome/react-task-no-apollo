@@ -13,7 +13,8 @@ const INITIAL_STATE = {
 };
 
 export const productsReducer = (state = INITIAL_STATE, action) => {
-  console.log("reducer called with", action.payload);
+  console.log("reducer called with", action);
+
   switch (action.type) {
     case "change_currency":
       return { ...state, currency: action.payload };
@@ -27,8 +28,8 @@ export const productsReducer = (state = INITIAL_STATE, action) => {
       };
 
     case "get_slelected_products_list":
-      const newList = state.query.filter((cat) => cat.name === action.payload);
-      return { ...state, category: action.payload, selectedList: newList[0] };
+      const newList = state.query.map((cat) => cat.name === action.payload);
+      return { ...state, category: action.payload, selectedList: newList };
 
     case "add_cart_item":
       const addedProduct = action.payload;

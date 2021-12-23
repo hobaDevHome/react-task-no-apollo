@@ -43,7 +43,6 @@ class Header extends Component {
 
   onChosseCatHandler(choosecCat) {
     this.props.getSelectedProductsLists(choosecCat);
-    localStorage.setItem("category", choosecCat);
   }
   getCartItemsNo() {
     let amuont = 0;
@@ -55,7 +54,7 @@ class Header extends Component {
 
     if (prods) {
       this.categoryNames = prods.map((prod) => prod.name);
-      console.log(prods);
+      // console.log(prods);
     }
   }
   getCurrencyNames() {

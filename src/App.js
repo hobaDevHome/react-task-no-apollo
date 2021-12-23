@@ -20,7 +20,7 @@ class App extends Component {
   }
   render() {
     this.props.getProductsLists(Categories);
-    console.log(this.state.categories);
+    // console.log(this.state.categories);
     if (this.state.categories === undefined) {
       return <div>Loading</div>;
     }

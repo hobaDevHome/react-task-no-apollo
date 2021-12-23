@@ -13,6 +13,8 @@ class ProductsPage extends Component {
   };
 
   render() {
+    console.log("in plp", this.props.selectedList);
+    console.log("in plp", this.props.category);
     return (
       <div className="products">
         <div className="cat-name-containger">
